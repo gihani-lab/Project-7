@@ -1,0 +1,63 @@
+body {
+  background-image: url(../Images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation-name: animate;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+  animation-timing-function: ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(238, 103, 24);
+  flex-direction: column;
+  margin: auto;
+}
+.heading {
+  gap: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Creepster", cursive;
+  font-size: 24px;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Nosifer", cursive;
+}
+button {
+  width: 202px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  color: rgb(195, 203, 195);
+  background-color: #f86e0c;
+  font-family: "Creepster", cursive;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #ae5c21; /* Green */
+  color: rgb(13, 14, 13);
+  transition: all 0.8s ease-in-out;
+}
+@keyframes animate {
+  0% {
+    background-image: url(../Images/background.jpeg);
+  }
+  50% {
+    background-image: url(../Images/image2.jpeg);
+  }
+  100% {
+    background-image: url(../Images/image3.jpeg);
+  }
+}
