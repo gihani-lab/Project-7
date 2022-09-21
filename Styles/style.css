@@ -27,6 +27,7 @@ body {
   align-items: center;
   font-family: "Creepster", cursive;
   font-size: 24px;
+  gap: 20px;
 }
 h1 {
   font-size: 50px;
