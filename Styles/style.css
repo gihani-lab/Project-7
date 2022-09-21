@@ -4,11 +4,10 @@ body {
   background-size: cover;
   background-position: center;
   animation-name: animate;
-  animation-fill-mode: backwards;
+  animation-fill-mode: both;
   animation-direction: alternate;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
-
   animation-timing-function: ease-in-out;
 }
 
@@ -20,9 +19,7 @@ body {
   flex-direction: column;
   margin: auto;
 }
-.heading {
-  gap: 20px;
-}
+
 .details {
   display: flex;
   flex-direction: column;
@@ -55,9 +52,9 @@ button:hover {
     background-image: url(../Images/background.jpeg);
   }
   50% {
-    background-image: url(../Images/image2.jpeg);
+    background-image: url(../Images/pumpkin.jpeg);
   }
   100% {
-    background-image: url(../Images/image3.jpeg);
+    background-image: url(../Images/cookies.jpeg);
   }
 }
